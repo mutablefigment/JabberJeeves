@@ -32,7 +32,7 @@
   pre-commit.hooks.black.enable = true;
 
   # https://devenv.sh/processes/
-  # processes.ping.exec = "ping example.com";
+  processes.ping.exec = "./JabberJeeves.py";
 
   # See full reference at https://devenv.sh/reference/options/
 }
